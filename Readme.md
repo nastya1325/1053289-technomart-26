@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Anastasia](https://up.htmlacademy.ru/htmlcss/26/user/1053289).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад Башилов] (https://htmlacademy.ru/profile/id167603)
 
 ---
 
