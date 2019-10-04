@@ -12,7 +12,14 @@
           alt="Логотип интернет-магазина Техномарт" width="108" height="18">
         </a>
         <ul>
-          <li>Поиск:<!-- Здесь будет форма поиска --></li>
+          <li>
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <p>
+                <label for="app-search" class="visually-hidden">Поиск</label>
+                <input id="app-search" type="search" name="search" placeholder="Поиск:">
+              </p>
+              <button type="submit">Найти</button>
+          </li>
           <li><a href="#">Закладки: <span>0</span></a></li>
           <li><a href="#">Корзина: <span>0</span></a></li>
         </ul>
@@ -77,7 +84,8 @@
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами,<br> заехав в наш офис:</p>
         <a href="map.html">
-          <img src="img/map.png" alt="Местоположение офиса на карте"
+          <img src="img/map.png" alt="Местоположение офиса на карте:
+          Большая Конюшенная ул., 19"
         width="300" height="158">
         </a><br>
         <button type="button">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</button>
@@ -146,5 +154,35 @@
         </div>
       </div>
     </footer>
+    <section>
+      <h2>Обратная связь</h2>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="app-name">Ваше имя:</label>
+          <input id="app-name" type="text" name="name" value=""
+          placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label for="app-mail">Ваш e-mail:</label>
+          <input id="app-mail" type="email" name="mail" value=""
+          placeholder="email@example.com">
+        </p>
+        <p>
+          <label for="app-text">Текст письма:</label>
+          <input id="app-text" type="text" name="text" value=""
+          placeholder="В свободной форме">
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
+      <button type="button">Закрыть</button> <!--крестик-->
+    </section>
+    <section>
+      <h2>Как до нас добраться</h2>
+      <p>
+        <img src="img/map_big.png" width="940" height="446"
+        alt="Офис компании по адресу ул. Большая Конюшенная 19">
+      </p>
+      <button type="button">Закрыть</button> <!-- Крестик -->
+    </section>
   </body>
 </html>
