@@ -12,7 +12,15 @@
           alt="Логотип интернет-магазина Техномарт" width="108" height="18">
         </a>
         <ul>
-          <li>Поиск:<!-- Здесь будет форма поиска --></li>
+          <li>
+            <form action="https://echo.htmlacademy.ru" method="post">
+              <p>
+                <label for="app-search" class="visually-hidden">Поиск</label>
+                <input id="app-search" type="search" name="search" placeholder="Поиск:">
+              </p>
+              <button type="submit">Найти</button>
+            </form>
+          </li>
           <li><a href="#">Закладки: <span>0</span></a></li>
           <li><a href="#">Корзина: <span>0</span></a></li>
         </ul>
@@ -28,10 +36,10 @@
           <li><p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p></li>
         </ul>
         <div>
-          <a href="#"><img src="img/icon.jpg" height="" width=""
+          <a href="#" aria-label="Ссылка на профайл"><img src="img/icon.jpg" height="" width=""
             alt="Иконка пользователя"></a>
           <a href="#"><span>Равшан Джамшутович</span></a>
-          <a href=""><img src="img/icon1.jpg" height="" width=""
+          <a href="" aria-label="Деавторизация"><img src="img/icon1.jpg" height="" width=""
             alt="Иконка деавторизации"></a> <!-- Но это не контентное изображение?!! -->
           <ul>
             <li><a href="#">Мои заказы</a></li>
@@ -75,13 +83,45 @@
       <div>
         <aside>
           <section>
-            <h2>Фильтр товара</h2>
-            <!-- Здесь будет форма фильтра -->
+            <h2>Фильтр товаров</h2>
+              <form action="https://echo.htmlacademy.ru" method="post">
+                <h3>Производители:</h3>
+                <p>
+                  <input id="li_bosch" type="checkbox" name="BOSCH">
+                  <label for="li_bosch">Bosch</label>
+                </p>
+                <p>
+                  <input id="li_interskol" type="checkbox" name="INTERSKOL">
+                  <label for="li_interskol">Интерскол</label>
+                </p>
+                <p>
+                  <input id="li_makita" type="checkbox" name="MAKITA">
+                  <label for="li_makita">Makita</label>
+                </p>
+                <p>
+                  <input id="li_dewalt" type="checkbox" name="DEWALT">
+                  <label for="li_dewalt">Dewalt</label>
+                </p>
+                <p>
+                  <input id="li_hitachi" type="checkbox" name="HITACHI">
+                  <label for="li_hitachi">Hitachi</label>
+                </p>
+                <h3>Питание:</h3>
+                <p>
+                  <input id="li_accum" type="radio" name="power" value="accumulator">
+                  <label for="li_accum">Аккумуляторные</label>
+                </p>
+                <p>
+                  <input id="li_network" type="radio" name="power" value="network">
+                  <label for="li_network">Сетевые</label>
+                </p>
+                <button type="submit" >Показать</button>
+              </form>
           </section>
         </aside>
         <div>
           <section>
-            <h2>Сортировка товара</h2>
+            <h2>Сортировка карточек товаров</h2>
             <!-- Здесь будет форма для сортировки -->
           </section>
           <section>
@@ -227,9 +267,9 @@
         <p>© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
         <div>
           <ul>
-            <li><a href="#">Вконтакте</a></li>
-            <li><a href="#">Фейсбук</a></li>
-            <li><a href="#">Инстаграм</a></li>
+            <li><a href="#" aria-label="Техномарт во Вконтакте">ВК</a></li>
+            <li><a href="#" aria-label="Техномарт на Фейсбуке">Фейсбук</a></li>
+            <li><a href="#" aria-label="Техномарт в Инстаграме">Инстаграм</a></li>
           </ul>
         </div>
         <div>
@@ -242,5 +282,11 @@
         </div>
       </div>
     </footer>
+    <section>
+      <h2>Товар добавлен в корзину!</h2>
+      <p><a href="#">Оформить заказ</a></p>
+      <button type="button">Продолжить покупки</button>
+      <button type="button">Закрыть</button>
+    </section>
   </body>
 </html>
