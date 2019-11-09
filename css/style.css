@@ -2,10 +2,10 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Cuprum', Arial, sans-sans-serif;
+  font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
   line-height: 25px;
-   font-weight:700;
+   font-weight:400;
    color: #000000;
 
    background-color: #ffffff;
@@ -13,4 +13,374 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.fix-block{
+
+}
+
+.main-header{
+  background-color: #f3f7f9;
+  background-image: url("../img/top-background.png");
+}
+
+.top-navigation{
+  color: #ffffff;
+  background-color: #293449;
+}
+
+.main-logo {
+  background-color: #ee3643;
+}
+
+.main-logo a:hover{
+  background-color: #ca2c37;
+}
+
+.main-logo a:focus{
+  background-color: #ba2732;
+}
+
+.cart-navigation,
+.order-navigation{
+  list-style: none;
+}
+
+.order-navigation a{
+  background-color: #63a63e;
+}
+
+.cart-navigation a,
+.order-navigation a{
+  color: inherit;
+}
+
+.search input{
+  background-color: inherit;
+}
+
+.cart-navigation a:hover,
+.cart-navigation .search input:hover{
+  background-color: #212a3a;
+}
+
+.cart-navigation a:focus{
+  color: #a2a5a9;
+  background-color: #161d29;
+}
+
+.cart-navigation .search input:focus{
+  background-color: #ffffff;
+}
+
+.order-navigation a:hover{
+  background-color: #5fbb2d;
+}
+
+.order-navigation a:focus{
+  background-color: #518534;
+  color: #a8c29a;
+}
+
+.header-bottom {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.header-bottom .text{
+  color: #ee3643;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.main-navigation{
+  font-size: 17px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #32425c;
+
+}
+
+.site-navigation{
+  list-style: none;
+}
+
+.site-navigation a{
+  color: inherit;
+}
+
+.site-navigation a:hover{
+  background-color: #293449;
+}
+
+.site-navigation a:focus{
+  background-color: #1d2739;
+  color: #8e939c;
+}
+
+.address-phone,
+.user-navigation{
+  list-style: none;
+}
+
+.address-phone li{
+  color: #32425c;
+  font-size: 14px;
+}
+
+.address-phone span{
+  color: #ee3643;
+  font-size: 21px;
+}
+
+.user-navigation a{
+  color: #000;
+  background-color: #fff;
+}
+
+.user-navigation a:hover{
+  color:#ee3643;
+}
+
+.user-navigation a:focus{
+  color:#b2b2b2;
+}
+
+.head{
+  background-color: #f9f5f0;
+}
+
+.head .text{
+  color: #32425c;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.head a{
+  background-color: #ee3643;
+  color: #fff;
+  font-size: 14px;
+}
+
+.head a:hover{
+  background-color: #ca2c37;
+}
+
+.head a:focus{
+  background-color: #ba2732;
+}
+
+.popular-list,
+.brands,
+.transport-list{
+  list-style:none;
+}
+
+.services{
+  background-image: url("../img/services-background.png");
+}
+
+.services .text,
+.information .text{
+  font-size: 30px;
+  line-height: 30px;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.services p,
+.information p{
+  font-family: "PT Sans", sans-serif;
+  color:inherit;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.services-slide h3{
+  color:#32425c;
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.company a{
+  background-color: #ee3643;
+  color: #fff;
+  font-size: 14px;
+}
+
+.company a:hover{
+  background-color: #ca2c37;
+}
+
+.company a:focus{
+  background-color: #ba2732;
+}
+
+.up-footer{
+  background-color: #32425c;
+}
+
+.logo a{
+  display: inline-block;
+  width: 220px;
+  height: 42px;
+  background-color: #ee3643;
+}
+
+.logo a:hover{
+  background-color: #ca2c37;
+}
+
+.logo a:focus{
+  background-color: #ba2732;
+}
+
+.up-footer ul{
+  list-style: none;
+}
+
+.first-list a{
+  color: #f1f5f7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.first-list a:hover{
+  text-decoration: underline;
+}
+
+.first-list a:focus{
+  text-decoration: none;
+  color: #929caa;
+}
+
+.second-list a{
+  color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.second-list a:hover{
+  text-decoration: underline;
+}
+
+.second-list a:focus{
+  text-decoration: none;
+  color: #998a6e;
+}
+
+.second-list p{
+  color: #f4f7f9;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.down-footer {
+  background-color: #293449;
+}
+
+.down-footer p{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.social-network ul{
+  list-style: none;
+}
+
+.feedback a,
+.developed a{
+  color: #ffd180;
+}
+
+.feedback a:hover,
+.developed a:hover{
+  text-decoration: underline ;
+}
+
+.feedback a:focus,
+.developed a:focus{
+  color: #ee3643;
+  text-decoration: none;
+}
+
+/** Сетка **/
+
+html,
+body {
+  min-width: 1200px;
+  min-height: 3151px;
+}
+
+body { /* временно для сетки */
+  background-image: url("../img/technomart-index.jpg");
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+}
+
+.main-header {
+  outline: 2px solid #41cec9;
+  min-height: 320px;
+  background-color: transparent;
+  background-image: none;
+
+  margin-bottom: 59px;
+}
+
+.top-navigation {
+  outline: 2px solid #c310c5;
+  min-height: 42px;
+  background-color: transparent;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-logo{
+  outline: 2px solid #fbfe04;
+  background-color: transparent;
+
+  width: 220px;
+  height: 42px;
+}
+
+.search {
+  outline: 2px solid #8fce2b;
+  min-height: 42px;
+
+  width: 270px;
+}
+
+.cart-navigation{
+  outline: 2px solid #f8ae3a;
+  min-height: 42px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px;
+}
+
+.order-navigation{
+  outline: 2px solid #0012ff;
+  min-height: 42px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 150px;
+}
+
+.fix-block{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.top-navigation .fix-block{
+  display: flex;
 }
